@@ -2,9 +2,9 @@
 
 
 :root{
-    --color-primaria: #000000;
-    --color-secundaria: #F6F6F6;
-    --color-terciaria: #22D4FD;
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
     --color-hover: #272727;
 
     --fuente-monserrat: 'Montserrat', sans-serif;
