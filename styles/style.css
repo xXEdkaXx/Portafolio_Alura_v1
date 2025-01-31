@@ -2,10 +2,10 @@
 
 
 :root{
-    --color-primario:#A6CDC6;
-    --color-secundario:#FBF5DD;
-    --color-terciario:#16404D;
-    --color-hover: #DDA853;
+    --color-primaria: #000000;
+    --color-secundaria: #F6F6F6;
+    --color-terciaria: #22D4FD;
+    --color-hover: #272727;
 
     --fuente-monserrat: 'Montserrat', sans-serif;
     --fuente-krona: "Krona One", serif;
@@ -118,4 +118,24 @@ body{
     font-family: var(--fuente-monserrat);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width:1200px ){
+    
+    .header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
 }
